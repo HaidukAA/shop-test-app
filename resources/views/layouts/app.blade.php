@@ -7,7 +7,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'E-Shop by Haiduk') }}</title>
+    <!-- <title>{{ config('app.name', 'E-Shop by Haiduk') }}</title> -->
+    
+    <title>@yield('title')</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
